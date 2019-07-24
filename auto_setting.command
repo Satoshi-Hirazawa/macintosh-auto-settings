@@ -47,7 +47,8 @@
 
     echo "change the wallpaper to Solid Gray Dark.png"
     osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Library/Desktop Pictures/Solid Colors/Solid Gray Dark.png"'
-
+    osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Library/Desktop Pictures/Solid Colors/Stone.png"'
+    
 ### ウィンドウ復元無効化
 
     echo "window restoration disabled"
