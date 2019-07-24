@@ -43,6 +43,10 @@
     echo "do not start the screen saver"
     defaults -currentHost write com.apple.screensaver idleTime -int 0
 
+# 壁紙変更
+
+    echo "change the wallpaper to Solid Gray Dark.png"
+    osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Library/Desktop Pictures/Solid Colors/Solid Gray Dark.png"'
 
 ### ウィンドウ復元無効化
 
